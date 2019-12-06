@@ -20,9 +20,9 @@ use Neos\EventSourcedContentRepository\Domain\ValueObject\WorkspaceName;
 use Neos\EventSourcedContentRepository\Domain\Context\NodeAddress\NodeAddress;
 
 /**
- * Publish a set of nodes in a workspace
+ * Discard a set of nodes in a workspace
  */
-final class PublishIndividualNodesFromWorkspace
+final class DiscardIndividualNodesFromWorkspace
 {
     /**
      * @var WorkspaceName
